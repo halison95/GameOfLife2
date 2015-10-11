@@ -1,0 +1,129 @@
+#title
+{
+	font-family: Georgia;
+	font-size: 40px;
+}
+#right-column
+{
+	height:300px;
+	border-color: black;
+	border-width: 3px;
+	border-style: solid;
+	border-radius: 30px;
+}
+.cell
+{
+	width:10px;
+	height:10px;
+	background-color:#fff;
+	border-right: 1px solid #bbb;
+	border-bottom: 1px solid #bbb;
+	position:absolute;
+}
+.blackbg
+{
+	background-color:#000;
+}
+#start-game
+{
+	position:relative;
+	height:50px;
+	width:150px;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: black;
+	text-align:center;
+	line-height: 50px;
+	color:white;
+	font-size: 2vmax;
+	border-color: white;
+	border-width: 3px;
+	border-style: solid;
+	border-radius: 30px;
+}
+#background
+{
+	background: url('images/entire-background.jpg');
+}
+#end-game
+{
+	position:relative;
+	height:50px;
+	width:150px;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: black;
+	text-align:center;
+	line-height: 50px;
+	color:white;
+	font-size: 2vmax;
+	border-color: white;
+	border-width: 3px;
+	border-style: solid;
+	border-radius: 30px;
+}
+#score
+{
+	position:relative;
+	height:120px;
+	width:300px;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align:center;
+	
+}
+#start-game:hover
+{
+	cursor:pointer;
+	border-color: black;
+	color:black;
+	background-color: white;
+}
+#end-game:hover
+{
+	cursor:pointer;
+	border-color: black;
+	color:black;
+	background-color: white;
+}
+#show-score
+{
+	position:relative;
+	margin-left: 0px;
+	margin-top: 0px;
+	width:130px;
+	height:80px;
+	line-height: 37px;
+	font-family: Georgia;
+	background:url('images/background-score.jpg');
+	border-color: gray;
+	border-width: 3px;
+	border-style: solid;
+	border-radius: 15px;
+}
+#show-score:hover
+{
+	background: url('images/gray.jpg');
+}
+#show-percentage:hover
+{
+	background: url('images/gray.jpg');
+}
+#show-percentage
+{
+	position:relative;
+	margin-left: 170px;
+	margin-top: -80px;
+	width:130px;
+	height:80px;
+	line-height:37px;
+	border-color: gray;
+	border-width: 3px;
+	border-style: solid;
+	border-radius: 15px;
+	font-family: Georgia;
+	background:url('images/background-score.jpg');
+}
