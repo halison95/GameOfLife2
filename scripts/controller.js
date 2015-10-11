@@ -172,7 +172,7 @@ function randomStart(ratio) {
 function start() {
 	status = 1;
 	buildMap(playMinPixel);
-	timerID = setTimeout(timer, 200);
+	timerID = setTimeout(timer, time);
 	$('#restart')[0].innerHTML = "重新开始";
 }
 
